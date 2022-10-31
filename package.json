@@ -1,0 +1,21 @@
+{
+  "name": "testing-jest",
+  "version": "0.0.1",
+  "description": "testing jest for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Testing with Jest"
+  },
+  "keywords": [
+    "testing",
+    "education",
+    "Jest",
+    "unit-testing"
+  ],
+  "author": "Martin Mroz",
+  "license": "MIT"
+}
