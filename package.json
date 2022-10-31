@@ -1,6 +1,6 @@
 {
   "name": "testing-jest",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "testing jest for educational purposes",
   "main": "index.js",
   "scripts": {
