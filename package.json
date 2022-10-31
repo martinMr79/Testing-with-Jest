@@ -7,8 +7,8 @@
     "test": "test"
   },
   "repository": {
-    "type": "git",
-    "url": "Testing with Jest"
+    "test": "npm run test-unit",
+    "test-unit": "jest"
   },
   "keywords": [
     "testing",
@@ -17,5 +17,9 @@
     "unit-testing"
   ],
   "author": "Martin Mroz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "jest": "^29.2.0"
+  }
 }
