@@ -17,5 +17,9 @@
     "unit-testing"
   ],
   "author": "Martin Mroz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
 }
