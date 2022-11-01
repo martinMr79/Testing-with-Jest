@@ -4,7 +4,8 @@
   "description": "testing jest for educational purposes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npm run test-e2e",
+    "test-e2e": "cypress open"
   },
   "repository": {
     "type": "git",
