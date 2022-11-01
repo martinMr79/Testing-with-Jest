@@ -1,11 +1,14 @@
 {
   "name": "testing-jest",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "testing jest for educational purposes",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test-unit",
-    "test-unit": "jest"
+    "test": "npm run test-e2e-cli",
+    "test-e2e": "cypress open",
+    "test-e2e-report": "cypress run --reporter mochawesome",
+    "npm run test-unit",
+    "test-unit": "jest-e2e-cli": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,11 @@
   ],
   "author": "Martin Mroz",
   "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
